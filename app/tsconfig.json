@@ -1,0 +1,10 @@
+{
+    "extends": "../tsconfig.base",
+    "compilerOptions": {
+        "removeComments": true,
+        "outFile": "../js/app.js"
+    },
+    //"include": ["./**/*"]  //compiler search for ts files in all subdirectories
+
+    "files": ["./app.ts"]
+}
