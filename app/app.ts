@@ -17,7 +17,7 @@ document.getElementById('startGame')!.addEventListener('click', () => {
   const problemCount: number = Number(Helpers.getValue('problemCount'));
   const factor: number = Number(Helpers.getValue('factor'));
 
-  newGame = new Game(player, problemCount, factor);
+  newGame = new Game(player, factor, problemCount,);
   newGame.displayGame();
 });
 
