@@ -2,7 +2,7 @@
     "extends": "../tsconfig.base",
     "compilerOptions": {
         "removeComments": true,
-        "outFile": "../js/app.js"
+         "module":  "CommonJS"
     },
     //"include": ["./**/*"]  //compiler search for ts files in all subdirectories
 
